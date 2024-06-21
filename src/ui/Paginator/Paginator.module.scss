@@ -1,0 +1,12 @@
+.Paginator {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: opacity 300ms;
+}
+
+.loading {
+  opacity: 0.5;
+}

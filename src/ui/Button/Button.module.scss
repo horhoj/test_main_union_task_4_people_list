@@ -1,0 +1,22 @@
+.Button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #ddd;
+  color: #333;
+  width: fit-content;
+  
+  &:hover {
+    filter: contrast(1.1);
+  }
+}
+
+.active {
+  background-color: cadetblue;
+  color: #fff;
+  &:hover {
+      filter: contrast(2);
+    }
+}

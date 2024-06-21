@@ -1,0 +1,41 @@
+.PeopleItemCardWrapper {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+}
+
+.PeopleItemCard {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #D4DEFE;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  display: grid;
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 300ms;
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.title {
+  font-size: 22px;
+}
+
+.field {
+  overflow: hidden;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.fieldCaption {
+  font-weight: bold;
+}

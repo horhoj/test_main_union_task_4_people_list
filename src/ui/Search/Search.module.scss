@@ -1,0 +1,37 @@
+.Search {
+  width: 100%;
+  position: relative;
+  padding: 0 5px;
+}
+
+.searchInput {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  min-height: 48px;
+  border: 1px solid #D4DEFE;
+  padding-left: 24px;
+  padding-right: 56px;
+  color: #8189A3;
+  border-radius: 30px;
+  outline: none;
+
+  &:focus {
+    outline: 2px solid #D4DEFE;
+  }
+
+  &::placeholder {
+    color: #ccc;
+    opacity: 1;
+    /* Firefox */
+  }
+
+}
+
+.searchIconWrapper {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+}
