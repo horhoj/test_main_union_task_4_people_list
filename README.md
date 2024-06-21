@@ -2,6 +2,8 @@
 
 Использовал "АПИ звездных войн", так как там есть пагинация и поиск
 
+ДЕМО: https://test-main-union-task-4-people-list.vercel.app/list-of-people
+
 
 # Используется: 
 
