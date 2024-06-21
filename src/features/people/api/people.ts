@@ -14,7 +14,7 @@ const dataMapper = (data: ListResponse<ListOfPeopleItemWithoutId>): ListResponse
 };
 
 const fetchListOfPeople = memoize(async (page?: number, search?: string) => {
-  const url = new URL(`${BASE_URL}/people`);
+  const url = new URL(`${BASE_URL}/people/`);
   if (page !== undefined) {
     url.searchParams.set('page', page.toString());
   }

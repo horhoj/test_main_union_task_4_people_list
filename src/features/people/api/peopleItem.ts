@@ -4,7 +4,7 @@ import { requestExecutor } from '~/api/apiTransport';
 import { BASE_URL } from '~/config/api';
 
 const fetchPeopleItem = memoize(async (id: string) => {
-  const res = await requestExecutor<PeopleItem>(`${BASE_URL}/people/${id}`);
+  const res = await requestExecutor<PeopleItem>(`${BASE_URL}/people/${id}/`);
 
   return res;
 });
